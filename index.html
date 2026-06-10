@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VR Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Dizayna uyğun futuristik və oxunaqlı şriftlər */
+        @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Inter:wght@300;400;600&display=swap');
+        
+        body {
+            /* Tünd bənövşəyi - qara radial arxa plan */
+            background: radial-gradient(circle at top left, #1a0b2e, #0b0416, #000000);
+            color: white;
+            font-family: 'Inter', sans-serif;
+            overflow-x: hidden;
+        }
+        .font-display {
+            font-family: 'Orbitron', sans-serif;
+        }
+    </style>
+</head>
+<body class="min-h-screen">
+
+    <nav class="container mx-auto px-6 py-8 flex justify-between items-center">
+        <div class="text-2xl font-display font-bold tracking-wide">Light</div>
+        
+        <div class="hidden md:flex space-x-10 text-sm items-center font-medium">
+            <a href="#" class="text-fuchsia-500 relative">
+                Home
+                <span class="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-4 h-0.5 bg-fuchsia-500"></span>
+            </a>
+            <a href="#" class="text-gray-300 hover:text-fuchsia-400 transition">Company</a>
+            <a href="#" class="text-gray-300 hover:text-fuchsia-400 transition">Features</a>
+        </div>
+
+        <button class="bg-gradient-to-r from-fuchsia-600 to-pink-500 px-6 py-2 rounded-md font-semibold text-sm hover:opacity-90 transition shadow-lg shadow-fuchsia-500/30">
+            Sign Up
+        </button>
+    </nav>
+
+    <main class="container mx-auto px-6 mt-12 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+        
+        <div class="space-y-8">
+            <h1 class="text-5xl lg:text-[4rem] font-display font-bold leading-tight">
+                Let's Explore <br> Three-Dimensional <br> visual
+            </h1>
+            <p class="text-gray-400 max-w-md text-sm leading-relaxed">
+                With virtual technology you can see the digital world feel more real and you can play the game with a new style.
+            </p>
+            
+            <div class="flex items-center space-x-6">
+                <button class="bg-gradient-to-r from-fuchsia-600 to-pink-500 px-8 py-3 rounded-md font-semibold text-sm hover:opacity-90 transition shadow-[0_0_20px_rgba(217,70,239,0.4)]">
+                    Get it Now
+                </button>
+                <button class="text-sm font-semibold hover:text-fuchsia-400 transition">
+                    Explore Device
+                </button>
+            </div>
+
+            <div class="flex items-center space-x-4 pt-6">
+                <div class="flex -space-x-3">
+                    <img class="w-10 h-10 rounded-full border-2 border-[#0b0416]" src="https://i.pravatar.cc/100?img=5" alt="User">
+                    <img class="w-10 h-10 rounded-full border-2 border-[#0b0416]" src="https://i.pravatar.cc/100?img=1" alt="User">
+                    <img class="w-10 h-10 rounded-full border-2 border-[#0b0416]" src="https://i.pravatar.cc/100?img=3" alt="User">
+                    <img class="w-10 h-10 rounded-full border-2 border-[#0b0416]" src="https://i.pravatar.cc/100?img=4" alt="User">
+                </div>
+                <div class="flex items-center space-x-2 text-sm font-medium">
+                    <span class="w-2 h-2 rounded-full bg-gray-200"></span>
+                    <span class="text-gray-300">400k people online</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="relative flex justify-center lg:justify-end">
+            <div class="bg-gradient-to-b from-[#ff4b72]/20 via-[#6b46c1]/40 to-[#4a2574]/80 p-8 rounded-t-[10rem] rounded-b-[5rem] w-full max-w-[400px] border border-fuchsia-500/20 text-center relative overflow-hidden backdrop-blur-md">
+                
+                <div class="absolute top-10 left-1/2 transform -translate-x-1/2 w-[110%] h-[250px] border border-fuchsia-400/50 rounded-[100%] rotate-[-12deg] z-0"></div>
+                
+                <div class="relative z-10 w-full h-64 mb-8 flex justify-center mt-6">
+                    <img src="https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="VR Experience" class="object-cover w-full h-full rounded-t-full rounded-b-3xl" style="clip-path: ellipse(80% 60% at 50% 40%);">
+                </div>
+                
+                <h3 class="text-2xl font-display font-bold mb-3 relative z-10">Cinematic Virtual Reality</h3>
+                <div class="w-20 h-px bg-gray-400/50 mx-auto mb-4 relative z-10"></div>
+                <p class="text-[11px] text-gray-300 relative z-10 pb-6 px-4">
+                    Let's be the best for more real and effective results and ready to explore the limitless world that we have prepared for you.
+                </p>
+            </div>
+        </div>
+    </main>
+
+    <section class="container mx-auto px-6 mt-32 mb-20 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+        
+        <div class="relative h-[550px] w-full max-w-lg mx-auto lg:mx-0">
+            <div class="absolute top-0 left-0 w-[70%] h-[75%] border-2 border-fuchsia-500/30 rounded-tr-[3rem] p-3 z-0">
+                <img src="https://images.unsplash.com/photo-1592478411213-6153e4ebc07d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="VR Gamer Blue" class="w-full h-full object-cover rounded-tr-[2.5rem]">
+            </div>
+            
+            <div class="absolute bottom-0 right-0 w-[70%] h-[75%] border-2 border-fuchsia-500/30 rounded-tl-[3rem] rounded-br-[3rem] p-3 bg-[#0b0416]/90 backdrop-blur-sm z-10">
+                <img src="https://images.unsplash.com/photo-1535223289827-42f1e9919769?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="VR Player Red" class="w-full h-full object-cover rounded-tl-[2.5rem] rounded-br-[2.5rem]">
+            </div>
+        </div>
+
+        <div class="space-y-6 lg:pl-10">
+            <h2 class="text-4xl font-display font-bold leading-tight">
+                New Experience In <br> Playing Game
+            </h2>
+            <p class="text-gray-400 text-sm leading-relaxed max-w-md">
+                You can try playing the game with a new style and of course a more real feel, like you are the main character in your game and adventure in this new digital world.
+            </p>
+            <div class="pt-4">
+                <button class="bg-gradient-to-r from-fuchsia-600 to-pink-500 px-8 py-3 rounded-md font-semibold text-sm hover:opacity-90 transition shadow-[0_0_20px_rgba(217,70,239,0.4)]">
+                    Get it Now
+                </button>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
