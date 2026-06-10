@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Düzəldilmiş E-commerce Hero Section</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        customBg: '#F2F0F1',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-customBg font-sans text-black overflow-x-hidden">
+
+    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex flex-col lg:flex-row items-center justify-between pt-10 lg:pt-20">
+            
+            <div class="w-full lg:w-1/2 flex flex-col items-start z-10">
+                
+                <h1 class="text-[2.5rem] sm:text-5xl lg:text-[4rem] font-black leading-[1.05] uppercase tracking-tight mb-5 lg:mb-8 text-black">
+                    Find Clothes<br class="hidden lg:block"> That Matches<br class="hidden lg:block"> Your Style
+                </h1>
+                
+                <p class="text-black/60 text-sm sm:text-base max-w-md mb-8 lg:mb-10 leading-relaxed">
+                    Browse through our diverse range of meticulously crafted garments, designed to bring out your individuality and cater to your sense of style.
+                </p>
+                
+                <button class="bg-black text-white px-12 py-4 rounded-full font-medium text-sm lg:text-base hover:bg-gray-800 transition-colors w-full sm:w-auto mb-10 lg:mb-12">
+                    Shop Now
+                </button>
+                
+                <div class="flex flex-col sm:flex-row flex-wrap items-center justify-center lg:justify-start w-full lg:w-auto mb-10 lg:mb-0 gap-y-4">
+                    <div class="flex items-center justify-center w-full sm:w-auto">
+                        <div class="pr-6 sm:pr-8 border-r border-black/10 text-left">
+                            <h3 class="text-3xl lg:text-4xl font-bold text-black mb-1">200+</h3>
+                            <p class="text-xs sm:text-sm text-black/60">International Brands</p>
+                        </div>
+                        <div class="pl-6 sm:pl-8 sm:pr-8 sm:border-r border-black/10 text-left">
+                            <h3 class="text-3xl lg:text-4xl font-bold text-black mb-1">2,000+</h3>
+                            <p class="text-xs sm:text-sm text-black/60">High-Quality Products</p>
+                        </div>
+                    </div>
+                    <div class="w-full sm:w-auto sm:pl-8 text-center sm:text-left mt-2 sm:mt-0">
+                        <h3 class="text-3xl lg:text-4xl font-bold text-black mb-1">30,000+</h3>
+                        <p class="text-xs sm:text-sm text-black/60">Happy Customers</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w-full lg:w-1/2 relative mt-4 lg:mt-0 flex justify-center items-end">
+                
+                <svg class="absolute top-0 right-4 lg:top-10 lg:right-10 w-12 h-12 lg:w-20 lg:h-20 text-black z-0" viewBox="0 0 100 100" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M50 0 C50 30 70 50 100 50 C70 50 50 70 50 100 C50 70 30 50 0 50 C30 50 50 30 50 0 Z"/>
+                </svg>
+                
+                <svg class="absolute top-1/2 left-4 lg:top-1/2 lg:left-0 w-8 h-8 lg:w-12 lg:h-12 text-black transform -translate-y-1/2 z-0" viewBox="0 0 100 100" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M50 0 C50 30 70 50 100 50 C70 50 50 70 50 100 C50 70 30 50 0 50 C30 50 50 30 50 0 Z"/>
+                </svg>
+
+                <img src="https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Fashion Models" class="relative z-10 w-full max-w-[500px] h-auto object-contain">
+                
+            </div>
+            
+        </div>
+    </section>
+    
+</body>
+</html>
